@@ -135,6 +135,25 @@ The schedule for the different curricula are listed here:
 </div>
 
 
+{% elsif site.curriculum == "dc-geospatial" %}
+
+      <tr> <td>Afternoon</td><td><a href="">Varaible Manipulation continued: forcats</a></td></tr>
+      <tr> <td></td><td><a href="https://datacarpentry.org/r-socialsci/04-ggplot2/index.html">ggplot2 continued</a></td></tr>
+      <tr> <td></td><td><a href="http://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/index.html">Producing Reports with Knitr</a></td></tr>
+
+	<tr>
+	<td>Evening</td>
+	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
+      </tr>
+      <tr>
+	<td> </td>
+	<td> END </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
 {% else %}
 {% include warning-curriculum.html %}
 {% endif %}
