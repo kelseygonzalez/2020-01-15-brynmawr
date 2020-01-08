@@ -1,11 +1,11 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 venue: "Bryn Mawr College"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "Park Science Center Rm 243"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "US"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-latitude: "40.0270567"     # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: "-75.3165965"    # decimal longitude of the workshop venue (use https://www.latlong.net)
+latitude: "40.029644"     # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: "-75.314956"    # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "Jan 15-16, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-01-15      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
@@ -94,7 +94,7 @@ address.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
   or
-  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
+  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>. Additionally, it is building #13 on this <a href="//www.brynmawr.edu/sites/default/files/campus_map_2018_brochure_small.pdf">map</a>. 
 </p>
 {% endif %}
 
@@ -220,7 +220,7 @@ e.g., '2015-06-10-esu'.
 {% endcomment %}
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code. All the lesson materials can be found <a href="//kelseygonzalez.github.io/2020-01-15-brynmawr-lessons/">here</a>.
 </p>
 {% endif %}
 
